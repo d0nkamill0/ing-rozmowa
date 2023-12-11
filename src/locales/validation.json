@@ -1,0 +1,26 @@
+{
+  "isRequired": {
+    "prefix": "Wartość pola",
+    "sufix": "nie moze być pusta"
+  },
+  "maxLength": {
+    "prefix": "Ilość znaków/elementów w polu",
+    "sufix": "nie moze być większa niz"
+  },
+  "minLength": {
+    "prefix": "Ilość znaków/elementów w polu",
+    "sufix": "nie moze być mniejsza niz"
+  },
+  "minNumber": {
+    "prefix": "Wartość liczbowa pola",
+    "sufix": "nie moze być większa niz"
+  },
+  "maxNumber": {
+    "prefix": "Wartość liczbowa pola",
+    "sufix": "nie moze być mniejsza niz"
+  },
+  "exactLength": {
+    "prefix": "Ilość znaków/elementów w polu",
+    "sufix": "musi być równa"
+  }
+}

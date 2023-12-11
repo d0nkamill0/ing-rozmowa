@@ -1,35 +1,7 @@
-# \<app-root>
+**_ INSTALACJA I URUCHOMIENIE _**
 
-This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
-
-## Installation
-
-```bash
-npm i app-root
-```
-
-## Usage
-
-```html
-<script type="module">
-  import 'app-root/app-root.js';
-</script>
-
-<app-root></app-root>
-```
-
-
-
-## Tooling configs
-
-For most of the tools, the configuration is in the `package.json` to minimize the amount of files in your project.
-
-If you customize the configuration a lot, you can consider moving them to individual files.
-
-## Local Demo with `web-dev-server`
-
-```bash
-npm start
-```
-
-To run a local development server that serves the basic demo located in `demo/index.html`
+1. zainstalowanie paczek: npm i
+2. uruchomienie serwera backendowego (potrzebne do zapisania formularza): npm run server
+3. uruchomienie aplikacji frontendowej: npm run start
+4. aplikacja znajduje się pod urlem http://localhost:8000/demo/
+5. uruchomienie testów: npm run test

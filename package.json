@@ -13,19 +13,37 @@
   },
   "scripts": {
     "analyze": "cem analyze --litelement",
-    "start": "web-dev-server"
+    "start": "web-dev-server",
+    "server": "node ./src/server/server.js",
+    "test": "web-test-runner \"./src/tests/**/*.test.js\" --node-resolve"
   },
   "dependencies": {
+    "@lion/button": "^0.18.1",
+    "@lion/checkbox-group": "^0.21.1",
     "@lion/core": "^0.24.0",
+    "@lion/dialog": "^0.16.1",
+    "@lion/fieldset": "^0.22.1",
     "@lion/form-core": "^0.18.3",
     "@lion/input": "^0.18.0",
+    "@lion/input-amount": "^0.18.0",
+    "@lion/radio-group": "^0.21.1",
     "@lion/select": "^0.17.1",
     "@lion/textarea": "^0.16.1",
-    "lit": "^2.0.2"
+    "@lion/ui": "^0.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jest": "^29.7.0",
+    "lit": "^2.0.2",
+    "sinon": "^17.0.1"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.4.17",
-    "@web/dev-server": "^0.1.34"
+    "@esm-bundle/chai": "^4.3.4",
+    "@open-wc/testing": "^3.0.0-next.5",
+    "@web/dev-server": "^0.1.34",
+    "@web/test-runner": "^0.18.0",
+    "jsdom": "^23.0.1",
+    "vitest": "^1.0.4"
   },
   "customElements": "custom-elements.json"
 }
