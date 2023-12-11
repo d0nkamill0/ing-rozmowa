@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div id="form-app"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../app-root.js';
+
+    render(
+      html`
+        <app-root></app-root>
+      `,
+      document.querySelector('#form-app')
+    );
+  </script>
+</body>
+</html>
